@@ -19,7 +19,7 @@ ___Using apt (Ubuntu, Debian)___
 On supported Linux distributions (Ubuntu, up to 16.04 (Xenial), `i386` and `amd64`) and ROS versions:
 
 ```
-sudo apt-get install ros-$ROS_DISTRO-universal-robot
+git clone https://github.com/luapsake/universal_robot
 ```
 
 replace `$ROS_DISTRO` with `hydro`, `indigo` or `kinetic`, depending on which ROS version you have installed.
